@@ -6,11 +6,11 @@ Vim by default closes all windows that have the buffer (file) open when you do `
 
 Bbye gives you a `:Bdelete` command that behaves like a well designed citizen:
 
- - Closes and removes the buffer.
- - Shows another file in that window.
- - Shows an empty file if you've got no other files open.
- - Does not leave useless `[no file]` buffers if you decide to edit another file in that window.
- - Works even if a file's open in multiple windows.
+- Closes and removes the buffer.
+- Shows another file in that window.
+- Shows an empty file if you've got no other files open.
+- Does not leave useless `[no file]` buffers if you decide to edit another file in that window.
+- Works even if a file's open in multiple windows.
 
 Regain your throne of windows!
 
@@ -79,6 +79,6 @@ About
 -----
 **[Andri Möll](http://themoll.com)** authored this in SublemacslipseMate++.  
 [Monday Calendar](https://mondayapp.com) supported the engineering work.  
-Inspired by [Bclose.vim](http://vim.wikia.com/wiki/VimTip165), but rewritten to  be perfect.
+Inspired by [Bclose.vim](http://vim.wikia.com/wiki/VimTip165), but rewritten to be perfect.
 
 If you find Bbye needs improving or you've got a question, please don't hesitate to email me anytime at andri@dot.ee or [create an issue online](https://github.com/moll/vim-bbye/issues).
